@@ -1,0 +1,1 @@
+## Integraciones (Mailchimp, AC, CK, ML) con interface común

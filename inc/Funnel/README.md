@@ -1,0 +1,1 @@
+## Casos de uso: opt-in, nurturing, descarga, RGPD
