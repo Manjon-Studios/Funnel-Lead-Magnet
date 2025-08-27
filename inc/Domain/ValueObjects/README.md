@@ -1,0 +1,1 @@
+## reglas/invariantes del negocio.

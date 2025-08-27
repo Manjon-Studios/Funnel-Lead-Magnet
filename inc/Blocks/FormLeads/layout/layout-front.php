@@ -82,7 +82,12 @@ if ($privacy_text !== '' || $privacy_url !== '') {
           method="post"
           aria-describedby="<?php echo esc_attr($form_status_id . ' ' . $form_desc_id); ?>"
           novalidate>
-        <?php wp_nonce_field('suscribir_form', 'suscribir_nonce'); ?>
+        <?php wp_nonce_field( 'flm_optin', '_flm_nonce' ); ?>
+
+        <div aria-hidden="true" class='sr-only'>
+            <label for="website">Website</label>
+            <input type="text" name="website" id="website" tabindex="-1" autocomplete="off">
+        </div>
 
         <div class="w-full flex flex-col gap-2">
             <label for="<?php echo esc_attr($uid); ?>_name" class="font-inter text-white font-semibold text-sm">

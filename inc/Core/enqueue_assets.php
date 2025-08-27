@@ -1,14 +1,12 @@
 <?php
 add_action('wp_enqueue_scripts', function() {
 
-    $origin = 'http://localhost:5173';
+    $origin = 'http://localhost:5174';
 
     if ( defined('FLM_VITE_DEV') && FLM_VITE_DEV )
     {
         wp_enqueue_script('vite-client', $origin . '/@vite/client', [], null, false);
         wp_enqueue_script('flm-app',    $origin . '/assets/src/js/app.js', [], null, true);
-
-
     } else
     {
         flm_enqueue_entries(['app','style']);
