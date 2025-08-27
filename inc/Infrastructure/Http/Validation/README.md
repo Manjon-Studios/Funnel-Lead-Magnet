@@ -1,0 +1,1 @@
+## validación/sanitización del request (WP)

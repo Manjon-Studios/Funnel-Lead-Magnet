@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/funnelleadmagnet.iml" filepath="$PROJECT_DIR$/.idea/funnelleadmagnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FunnelLeadMagnet.iml" filepath="$PROJECT_DIR$/.idea/FunnelLeadMagnet.iml" />
     </modules>
   </component>
 </project>
