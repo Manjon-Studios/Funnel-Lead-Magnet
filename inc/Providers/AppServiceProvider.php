@@ -8,6 +8,9 @@ use Domain\Ports\LeadPublisher;
 use Domain\Ports\LeadRepository;
 use Infrastructure\Http\Controllers\OptinController;
 use Infrastructure\Http\Routes\OptinRoutes;
+use Infrastructure\Persistence\WpdbLeadRepository;
+use Infrastructure\Services\DisposableDomainListService;
+use Infrastructure\Events\WordPressLeadPublisher;
 use wpdb;
 
 
